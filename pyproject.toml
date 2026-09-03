@@ -1,0 +1,13 @@
+[project]
+name = "apparel"
+authors = [
+    { name = "Apparel", email = "dev@example.com" },
+]
+description = "Apparel Import/Export customization for ERPNext (LC Proforma, Export/Import Shipment, Cost Sheet, Packing)."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
